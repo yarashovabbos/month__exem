@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davlatlar</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>DUNYO mamlakatlari</h1>
+        <button  id="toggle-dark-mode" class="mode">
+            <img src="./img/toggle_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="dark-svg">
+        </button>
+    </header>
+    
+    <div class="container jons">
+        <video class="video" src="./media/Social-handle-(Dark)-[remix] (1).webm" muted autoplay loop id="video"></video>
+        <div class="search-filter">
+            <input type="text" id="search-input" placeholder="davlatni nomini yozing ...">
+            <select id="region-select">
+                <option value="">Qit'alar</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Amerika</option>
+                <option value="Asia">Osiyo</option>
+                <option value="Europe">Yevropa</option>
+                <option value="Oceania">Janubiy Amerika</option>
+            </select>
+        </div>
+        <div class="countries-list" id="countries-list"></div>
+    </div>
+  
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
